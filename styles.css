@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+}
+
+/* Add this CSS code to make the navigation bar fixed */
+#main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f42d2d; /* Set your preferred background color */
+    z-index: 1000; /* Set a higher z-index to make sure it appears above other elements */
+}
+
+/* Add some styling for the navigation links */
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#main-nav li {
+    display: inline;
+}
+
+#main-nav a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white; /* Set the text color */
+}
+
+#main-nav a:hover {
+    background-color: #555; /* Set the background color on hover */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('Images/IMMORTAL.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #65fffa;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #007b8c;
+}
+
+.features {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    margin-bottom: 40px;
+}
+
+.feature-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.feature-item p {
+    font-size: 20px;
+}
+
+.games {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.games h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.game-item {
+    margin-bottom: 40px;
+}
+
+.game-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.game-item h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.game-item p {
+    font-size: 25px;
+    margin: 0% 15% 0% 15%;
+    font-style: italic;
+}
+
+.about {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-size: 24px;
+}
+
+.contact {
+    text-align: center;
+    padding: 80px 0;
+    
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+#youtubePlayer{
+    margin-left: 10%;
+
+}
+
+form {
+    background-color: #b6fff0 ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #ffd2d2;
+    color: #fbfbfb;
+}
+
+button {
+    background-color: #017cff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #04ff57;
+}

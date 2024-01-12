@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Immortal Gaming</title>
+</head>
+
+<body>
+
+
+    <div class="logo">Immortal Gaming</div>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Immortal Gaming</h1>
+            <p>Experience the thrill of gaming like never before. Join us on an epic journey!</p>
+            <a href="#signup" class="cta-button">Sign Up Now</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-item">
+            <img src="Images/Immersive gameplay.jpg" alt="Feature 1">
+            <h3>Immersive Gameplay</h3>
+            <p>Dive into a world of immersive and captivating gameplay with our cutting-edge technology.</p>
+        </div>
+        <div class="feature-item">
+            <img src="Images/MP.jpg" alt="Feature 2">
+            <h3>Multiplayer Fun</h3>
+            <p>Connect with friends and players worldwide for an unparalleled multiplayer gaming experience.</p>
+        </div>
+        <div class="feature-item">
+            <img src="Images/Titles.jpg" alt="Feature 3">
+            <h3>Exclusive Titles</h3>
+            <p>Enjoy access to exclusive game titles that will keep you engaged and entertained.</p>
+        </div>
+    </section>
+
+    <section id="games" class="games">
+        <h2>Popular Games</h2>
+        <div class="game-item">
+            <img src="Images/BGMI.jpeg" alt="Game 1">
+            <h3>Battlegrounds Mobile India</h3>
+            <p>BGMI, is a TPP-FPP survival shooter game in which up to 100 players compete in a battle royale,
+                a type of large-scale last man standing deathmatch in which players compete to be the last one
+                standing.Are you ready for the adventure?</p>
+        </div>
+        <div class="game-item">
+            <img src="Images/COC.jpeg" alt="Game 2">
+            <h3>Clash of clans</h3>
+            <p>Clash of Clans is an online multiplayer strategy game published by Supercell. You can build your
+                own community, train troops and attack other players. You can join a clan of players or start
+                your own clan and invite friends</p>
+        </div>
+        <div class="game-item">
+            <img src="Images/PU.jpeg" alt="Game 2">
+            <h3>Pokemon Unite</h3>
+            <p>Pokémon Unite is a multiplayer online battle arena game, with standard matches consisting of two teams,
+                each with 5 players. Each match is limited to 10 minutes in duration, and the team with the highest
+                total score by the end of each match wins.</p>
+        </div>
+        <div class="game-item">
+            <img src="Images/COD.jpeg" alt="Game 2">
+            <h3>Call of Duty</h3>
+            <p>Experience the thrill of Call of Duty on the go. Play as iconic characters in battle royale and
+                multiplayer
+                in our best fps free mobile game.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Immortal Gaming, we are dedicated to providing gamers with an unparalleled gaming experience. Our team of
+            passionate developers and designers work tirelessly to bring you the best games and features.</p>
+    </section>
+    <div id="youtubePlayer"></div>
+
+  <script>
+  
+    var videoID = 'HuwkH2HJhZA';
+    // Create and configure the YouTube player
+    var playerDiv = document.getElementById('youtubePlayer');
+    var iframe = document.createElement('iframe');
+    iframe.width = '560'; // Set the width of the player
+    iframe.height = '315'; // Set the height of the player
+    iframe.src = 'https://www.youtube.com/embed/' + videoID;
+    iframe.frameBorder = '0';
+    iframe.allowFullscreen = true;
+
+    // Add the player to the webpage
+    playerDiv.appendChild(iframe);
+    var videoID = '03txxiVWIBY';
+    // Create and configure the YouTube player
+    var playerDiv = document.getElementById('youtubePlayer');
+    var iframe = document.createElement('iframe');
+    iframe.width = '560'; // Set the width of the player
+    iframe.height = '315'; // Set the height of the player
+    iframe.src = 'https://www.youtube.com/embed/' + videoID;
+    iframe.frameBorder = '0';
+    iframe.allowFullscreen = true;
+
+    // Add the player to the webpage
+    playerDiv.appendChild(iframe);
+  </script>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Immortal Gaming. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
